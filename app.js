@@ -28,6 +28,7 @@ function renderCafe(doc) {
 
 // GET ALL data
 db.collection("cafes")
+  .where("city", "==", "JB")
   .get()
   .then((snapshot) => {
     snapshot.docs.forEach((doc) => {
