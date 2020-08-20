@@ -61,3 +61,8 @@ db.collection("cafes")
       }
     });
   });
+
+// db.collection("cafes").doc("???").update({
+//   name: "Change Name",
+//   city: "Change City",
+// });
